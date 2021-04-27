@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FormLedZeppelin</title>
+	<style type="text/css">
+		body {
+			background-image: url("fotoform.jpg");
+			
+			background-repeat: no-repeat;
+			background-size: 60%;
+			background-position: center;
+		}
+		img {
+			opacity: 1;
+		}
+		textarea {
+			margin: 0 auto;
+			width: 330px;
+		}		
+		form {
+			margin: 0 auto;
+			width: 400px;
+			padding: 1em;
+			border: 1px solid #CCC;
+			border-radius: 1 em;
+		}
+		label {
+			display: inline-block;
+			width: 90px;
+			text-align: right;
+		}
+	</style>
+</head>
+
+<body>
+	
+	<form><font color="white">
+		<fieldset>
+		<legend><font size="6"><b><div align="center"> Cadastro dos Fanáticos da <p> Banda Led Zeppelin</font></p></b></div></legend>			
+			<fieldset>
+			<legend>Preencha os Dados Abaixo</legend>
+			<label for="cNome">Nome: </label>
+			<input type="text" name="tnome" id="cNome" placeholder="Nome">
+			<br>
+			<br>
+			<label for="cSobrenome">Sobrenome: </label>
+			<input type="text" name="tsobrenome" id="cSobrenome" placeholder="Sobrenome">
+			<br>
+			<br>
+			<label for="cEmail">E-mail: </label>
+			<input type="text" name="usuario_email" id="cEmail" placeholder="E-mail">
+			<br>
+			<br>
+			<label>Sexo: </label>
+			<input type="radio" value="Masculino" name="sexo">Masculino
+			<input type="radio" value="Feminino" name="sexo">Feminino<br><br>
+			<label for="cData">Data de Nascimento</label>
+			<input type="date" name="datadenascimento" id="cData">
+			<br>
+			<br>
+			<label for="cPais">País: </label>
+			<input type="text" name="tpais" id="cPais">
+			<br>
+			<br>
+			<label for="cCidade">Cidade: </label>
+			<input type="text" name="tcidade" id="cCidade">
+			<br>
+			<br>
+
+
+		</fieldset>
+		<fieldset>
+			<legend font size= 5 >Melhores Álbuns</legend>
+			<input type="checkbox" name="albuns" value="1">Led Zeppelin IV (1971)<br>
+			<input type="checkbox" name="albuns" value="2">Physical Graffiti (1975)<br>
+			<input type="checkbox" name="albuns" value="3">Led Zeppelin II (1969)<br>
+			<input type="checkbox" name="albuns" value="4">Led Zeppelin III (1970))<br>
+			<input type="checkbox" name="albuns" value="5">Led Zeppelin (1969)<br>
+			<input type="checkbox" name="albuns" value="6">Houses of the Holy (1973)<br>
+			<input type="checkbox" name="albuns" value="7">Presence (1976)<br>
+			<input type="checkbox" name="albuns" value="8">In Through the Out Door (1979)<br>			
+		</fieldset>
+		<fieldset>
+			<legend>Mensagem</legend>
+			<textarea name="Mensagem"></textarea>
+		</fieldset>
+		<br>
+		<label for="cLogin">Login</label>
+		<input type="text" name="tlogin" id="cLogin">
+		<br>
+		<br>
+		<label for="cSenha">Senha: </label>
+		<input type="password" name="senha" id="cSenha">
+		<br>
+		<br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Limpar</button>
+	</fieldset>
+	</font>	
+	</form>
+
+</body>
+</html>
