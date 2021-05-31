@@ -1,4 +1,4 @@
-# DisciplinadeJavaScript
+# DisciplinadeHTML/CSS
 Repositório dos projetos desenvolvidos na disciplina de HTML , CSS e JavaScript
 ![MariaRaquel](https://user-images.githubusercontent.com/65344071/116325777-5900ed80-a799-11eb-9558-3446f0d00f39.jpg)
 
